@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_data">Tambah Catatan</string>
+    <string name="app_name">NotesApp</string>
+    <string name="description_hint">Deskripsi</string>
+    <string name="empty_notes">Belum ada catatan. Tekan tombol Tambah Catatan untuk membuat data pertama.</string>
+    <string name="input_subtitle">Isi judul dan deskripsi catatan dengan lengkap.</string>
+    <string name="input_title">Catatan Baru</string>
+    <string name="latest_notes">Daftar Catatan</string>
+    <string name="list_subtitle">Simpan ide, tugas, dan pengingat singkat.</string>
+    <string name="list_title">Catatan Saya</string>
+    <string name="note_count">%1$d catatan tersimpan</string>
+    <string name="note_count_zero">0 catatan tersimpan</string>
+    <string name="save">Simpan</string>
+    <string name="title_hint">Judul</string>
+    <style name="Theme.NotesApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2563EB</item>
+        <item name="colorPrimaryDark">#1D4ED8</item>
+        <item name="colorAccent">#2563EB</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#F5F7FB</item>
+        <item name="android:statusBarColor">#F5F7FB</item>
+    </style>
+</resources>

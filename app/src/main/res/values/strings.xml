@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="add_data">Tambah Catatan</string>
+    <string name="title_hint">Judul</string>
+    <string name="description_hint">Deskripsi</string>
+    <string name="save">Simpan</string>
+    <string name="list_title">Catatan Saya</string>
+    <string name="list_subtitle">Simpan ide, tugas, dan pengingat singkat.</string>
+    <string name="latest_notes">Daftar Catatan</string>
+    <string name="empty_notes">Belum ada catatan. Tekan tombol Tambah Catatan untuk membuat data pertama.</string>
+    <string name="note_count">%1$d catatan tersimpan</string>
+    <string name="note_count_zero">0 catatan tersimpan</string>
+    <string name="input_title">Catatan Baru</string>
+    <string name="input_subtitle">Isi judul dan deskripsi catatan dengan lengkap.</string>
+</resources>

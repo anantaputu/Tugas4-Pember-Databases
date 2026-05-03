@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Zoan\.gradle\caches\transforms-3\bda0c27834fb93924e867ed40e13d9d8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Zoan\.gradle\caches\transforms-3\bda0c27834fb93924e867ed40e13d9d8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Zoan\.gradle\caches\transforms-3\bda0c27834fb93924e867ed40e13d9d8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Zoan\.gradle\caches\transforms-3\bda0c27834fb93924e867ed40e13d9d8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Zoan\.gradle\caches\transforms-3\bda0c27834fb93924e867ed40e13d9d8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Android\Project\app\src\main\AndroidManifest.xml:3:5-25:19
+18        android:allowBackup="true"
+18-->C:\Android\Project\app\src\main\AndroidManifest.xml:4:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Zoan\.gradle\caches\transforms-3\bda0c27834fb93924e867ed40e13d9d8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:icon="@drawable/ic_launcher"
+22-->C:\Android\Project\app\src\main\AndroidManifest.xml:5:9-45
+23        android:label="@string/app_name"
+23-->C:\Android\Project\app\src\main\AndroidManifest.xml:6:9-41
+24        android:supportsRtl="true"
+24-->C:\Android\Project\app\src\main\AndroidManifest.xml:8:9-35
+25        android:theme="@style/Theme.NotesApp" >
+25-->C:\Android\Project\app\src\main\AndroidManifest.xml:7:9-46
+26        <activity
+26-->C:\Android\Project\app\src\main\AndroidManifest.xml:10:9-12:40
+27            android:name="com.example.app.InputActivity"
+27-->C:\Android\Project\app\src\main\AndroidManifest.xml:11:13-42
+28            android:exported="false" />
+28-->C:\Android\Project\app\src\main\AndroidManifest.xml:12:13-37
+29        <activity
+29-->C:\Android\Project\app\src\main\AndroidManifest.xml:14:9-23:20
+30            android:name="com.example.app.MainActivity"
+30-->C:\Android\Project\app\src\main\AndroidManifest.xml:15:13-41
+31            android:exported="true" >
+31-->C:\Android\Project\app\src\main\AndroidManifest.xml:16:13-36
+32            <intent-filter>
+32-->C:\Android\Project\app\src\main\AndroidManifest.xml:18:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Android\Project\app\src\main\AndroidManifest.xml:19:17-69
+33-->C:\Android\Project\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Android\Project\app\src\main\AndroidManifest.xml:20:17-77
+35-->C:\Android\Project\app\src\main\AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.app.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zoan\.gradle\caches\transforms-3\8262367a11bda1b4b9cedc24dd567015\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Zoan\.gradle\caches\transforms-3\2356b9ec2e29d1ad4031155c1362cfb1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Zoan\.gradle\caches\transforms-3\2356b9ec2e29d1ad4031155c1362cfb1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Zoan\.gradle\caches\transforms-3\2356b9ec2e29d1ad4031155c1362cfb1\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

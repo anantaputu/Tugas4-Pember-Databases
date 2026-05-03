@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.app.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="drawable[bg_primary_button(U),bg_chip(U),bg_text_field(U),bg_app(U),bg_empty_state(U),ic_launcher(U)],id[tvDesc(U),tvInputSubtitle(D),tvEmpty(U),tvSubtitle(D),tvTitle(U),tvHeader(D),etTitle(U),tvInputTitle(D),btnSave(U),btnAdd(U),tvSection(D),recyclerView(U),etDesc(U),tvCount(U)],layout[item_note(U),activity_input(U),activity_main(U)],string[list_title(U),list_subtitle(U),empty_notes(U),add_data(U),save(U),title_hint(U),note_count_zero(U),latest_notes(U),app_name(U),input_subtitle(U),input_title(U),note_count(U),description_hint(U)],style[Theme_AppCompat_Light_NoActionBar(R),Theme_NotesApp(U)];15^3^21^20^2^1c^23^0^1b,16^3^17^18^1^1d^0^1a^1e^4^19,25^24;;;"/>
+    </map>
+
+</incidents>
